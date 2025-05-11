@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contrôle à distance</title>
+  </head>
+  <body>
+    <h1>Contrôle du PC de ton pote 😈</h1>
+    <button onclick="setCommande('popup')">Afficher un message</button>
+    <button onclick="setCommande('none')">Désactiver</button>
+
+    <script>
+      async function setCommande(cmd) {
+        const response = await fetch('commande.txt', {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'text/plain'
+          },
+          body: cmd
+        });
+        alert('Commande envoyée : ' + cmd);
+      }
+    </script>
+  </body>
+</html>
