@@ -1,0 +1,9 @@
+All commande is here...
+
+Popup:
+
+"popup1": "🔥 ALERTE : Une présence inconnue détectée sur ce PC 😱"
+
+"popup2": "tu t'est fait hack frr..."
+
+"popup3": "arrete de cliquer partout fréro !"
