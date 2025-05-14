@@ -10,3 +10,5 @@ puis importez les deux fichiers précédemment téléchargés.
 
 Étape 3:
 activez la page de votre github, il faut aller sur votre projet puis allez sur settings (options) et allez dans page.
+Activez la branche sur main et il faut mettre root.
+il faudra remplacer le lien dans le scripte python par le lien que github vas vous donner.
